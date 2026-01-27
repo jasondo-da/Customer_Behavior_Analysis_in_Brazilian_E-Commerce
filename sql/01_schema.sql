@@ -5,7 +5,11 @@
    SQL Dialect: MySQL
    ------------------------------------------------------------------ */
 
-/* Creating schema for project */
+
+/* --------------
+   Project Schema 
+   -------------- */
+
 CREATE SCHEMA IF NOT EXISTS brazil_ecommerce
 
 
