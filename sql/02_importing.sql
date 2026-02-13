@@ -16,7 +16,7 @@ INTO TABLE olist_customers_dataset
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
+IGNORE 1 ROWS
 
 /* --------------------------
    Table: Geolocation Dataset
@@ -27,7 +27,7 @@ INTO TABLE olist_geolocation_dataset
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
+IGNORE 1 ROWS
 
 /* --------------------------
    Table: Order Items Dataset
@@ -38,7 +38,7 @@ INTO TABLE olist_order_items_dataset
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
+IGNORE 1 ROWS
 
 /* -----------------------
    Table: Payments Dataset
@@ -49,7 +49,7 @@ INTO TABLE olist_order_payments_dataset
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
+IGNORE 1 ROWS
 
 /* ----------------------------
    Table: Order Reviews Dataset
@@ -60,7 +60,7 @@ INTO TABLE olist_order_reviews_dataset
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
+IGNORE 1 ROWS
 
 /* --------------------
    Table: Orders Dataset
@@ -71,7 +71,7 @@ INTO TABLE olist_orders_dataset
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
+IGNORE 1 ROWS
 
 /* -----------------------
    Table: Products Dataset
@@ -82,7 +82,7 @@ INTO TABLE olist_products_dataset
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
+IGNORE 1 ROWS
 
 /* ----------------------
    Table: Sellers Dataset
@@ -93,7 +93,7 @@ INTO TABLE olist_sellers_dataset
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
+IGNORE 1 ROWS
 
 /* --------------------------------
    Table: Category Name Translation
@@ -104,4 +104,4 @@ INTO TABLE product_category_name_translation
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
+IGNORE 1 ROWS

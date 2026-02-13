@@ -23,7 +23,7 @@ CREATE TABLE brazil_ecommerce.olist_customers_dataset(
    customer_zip_code_prefix CHAR(5),
    customer_city VARCHAR(50),
    customer_state CHAR(2)
-);
+)
 
 /* --------------------------
    Table: Geolocation Dataset
@@ -35,7 +35,7 @@ CREATE TABLE brazil_ecommerce.olist_geolocation_dataset(
    geolocation_lng DOUBLE,
    geolocation_city VARCHAR(50),
    geolocation_state CHAR(2)
-);
+)
 
 /* --------------------------
    Table: Order Items Dataset
@@ -46,10 +46,10 @@ CREATE TABLE brazil_ecommerce.olist_order_items_dataset(
    order_item_id TINYINT UNSIGNED,
    product_id VARCHAR(35),
    seller_id VARCHAR(35),
-   shipping_limit_date DATETIME,
+   shipping_limit_date VARCHAR(35),
    price SMALLINT UNSIGNED,
    freight_value SMALLINT UNSIGNED
-);
+)
 
 /* -----------------------
    Table: Payments Dataset
@@ -61,7 +61,7 @@ CREATE TABLE brazil_ecommerce.olist_order_payments_dataset(
    payment_type VARCHAR(20),
    payment_installments TINYINT UNSIGNED,
    payment_value SMALLINT UNSIGNED
-);
+)
 
 /* ----------------------------
    Table: Order Reviews Dataset
@@ -73,9 +73,9 @@ CREATE TABLE brazil_ecommerce.olist_order_reviews_dataset(
    review_score TINYINT UNSIGNED,
    review_comment_title TINYTEXT,
    review_comment_message TINYTEXT,
-   review_creation_date DATETIME,
-   review_answer_timestamp DATETIME
-);
+   review_creation_date VARCHAR(35),
+   review_answer_timestamp VARCHAR(35)
+)
 
 /* --------------------
    Table: Order Dataset
@@ -90,7 +90,7 @@ CREATE TABLE brazil_ecommerce.olist_orders_dataset(
    order_delivered_carrier_date VARCHAR(35),
    order_delivered_customer_date VARCHAR(35),
    order_estimated_delivery_date VARCHAR(35)
-);
+)
 
 /* -----------------------
    Table: Products Dataset
@@ -106,7 +106,7 @@ CREATE TABLE brazil_ecommerce.olist_products_dataset(
    product_length_cm TINYINT UNSIGNED,
    product_height_cm TINYINT UNSIGNED,
    product_width_cm TINYINT UNSIGNED
-);
+)
 
 /* ----------------------
    Table: Sellers Dataset
@@ -117,7 +117,7 @@ CREATE TABLE brazil_ecommerce.olist_sellers_dataset(
    seller_zip_code_prefix MEDIUMINT UNSIGNED,
    seller_city VARCHAR(50),
    seller_state CHAR(2)
-);
+)
 
 /* --------------------------------
    Table: Category Name Translation
@@ -126,4 +126,4 @@ CREATE TABLE brazil_ecommerce.olist_sellers_dataset(
 CREATE TABLE brazil_ecommerce.product_category_name_translation(
    product_category_name VARCHAR(50),
    product_category_name_english VARCHAR(50)
-);
+)
